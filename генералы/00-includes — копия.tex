@@ -1,0 +1,45 @@
+% Кодировка и язык
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian,english]{babel}
+
+% Геометрия страницы
+\usepackage[left=20mm,right=10mm,top=20mm,bottom=20mm]{geometry}
+
+% Масштабируемые шрифты и типографика
+\usepackage{lmodern}
+
+% Работа с изображениями
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage{pdfpages}
+
+% Работа с таблицами
+\usepackage{array}
+\usepackage{multirow}
+
+% Настройка интервалов и абзацев
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+
+% Настройка секций
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{\centering}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titlespacing{\section}{0mm}{0mm}{4mm}
+\titlespacing{\subsection}{\parindent}{6mm}{6mm}
+
+% Списки
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+% Таблицы и подписи
+\usepackage{caption}
+\captionsetup[figure]{name=Рисунок}
+\captionsetup[table]{name=Таблица}
+
+% Гиперссылки
+\usepackage[colorlinks=false, hidelinks]{hyperref}

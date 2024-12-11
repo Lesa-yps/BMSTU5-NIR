@@ -1,0 +1,41 @@
+\documentclass[a4paper,12pt]{article}
+
+% Подключения пакетов и настройки
+\include{00-includes}
+
+
+\begin{document}
+
+% Титульный лист
+\includepdf[pages=-]{title.pdf}
+% Техническое задание
+\includepdf[pages=-]{ТЗ.pdf}
+
+% Реферат
+\include{01-referat}
+
+% Оглавление
+\include{02-contents}
+
+% Введение
+\include{03-intro}
+
+% Основная часть
+% Аналитиз предметной области
+\include{10-domain_analysis}
+% Формализация задачи
+\include{11-formalize_task}
+% Существующие алгоритмы решения задачи
+\include{12-solve_algos}
+% Оценка и сравнение алгоритмов
+\include{13-comparator}
+
+% Заключение
+\include{14-conclusion}
+
+% Список используемых источников
+\include{20-sources}
+
+\include{21-append}
+
+\end{document}

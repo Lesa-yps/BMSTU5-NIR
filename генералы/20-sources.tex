@@ -1,0 +1,47 @@
+% Список использованных источников
+\begin{center}
+    \MakeUppercase{\large Список использованных источников}
+\end{center}
+\addcontentsline{toc}{section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ} % Добавляем в оглавление
+
+% Удаление "Список литературы" по умолчанию и получившихся пробелов
+\renewcommand{\refname}{}
+\vspace{-11mm}
+
+\makeatletter
+\renewcommand\@biblabel[1]{#1.} % Изменение формата номера
+\makeatother
+
+\begin{thebibliography}{9}
+
+    \bibitem{lamport}
+Lamport, L., Shostak, R., \& Pease, M. (1982). The Byzantine Generals Problem. \textit{ACM Transactions on Programming Languages and Systems}, 4(3), 382–401. SRI International. DOI: [Insert DOI if available].
+
+    \bibitem{vakhramov} 
+Вахрамов, С. В. (n.d.). Решение «Задачи византийских генералов» с помощью принципов блокчейна Bitcoin. \textit{Факультет информатики и робототехники, Уфимский государственный авиационный технический университет}. e-mail: s@vakhramoff.ru.
+
+    \bibitem{blockchain_lecture_4} 
+Инженерные классы Блокчейн. Лекция 4. Задача о византийских генералах и алгоритмы консенсуса [Электронный ресурс]. – URL: \url{https://vk.com/@rtublockchain-lekciya-4-zadacha-o-vizantiiskih-generalah-i-algoritmy-konse} (дата обращения: 05.11.2024).
+
+    \bibitem{pogorelov}
+Погорелов, А. М., \& Михеенко, Д. С. (2022). Проблема византийских генералов в блокчейн-технологиях. Византийская отказоустойчивость. Основы алгоритмов консенсуса. \textit{Юный ученый}, 3(55), 41–43. URL: \url{https://moluch.ru/young/archive/55/2835/} (дата обращения: 12.11.2024).
+
+    \bibitem{forklog}
+Задача византийских генералов: история и решение. (2022). Education. \textit{Forklog}. URL: \url{https://hub.forklog.com/zadacha-vizantijskih-generalov-istoriya-i-reshenie/}.
+
+    \bibitem{binance}
+Разъяснение Задач Византийских Генералов. (2018). \textit{Binance Academy}. URL: \url{https://academy.binance.com/ru/articles/byzantine-fault-tolerance-explained} (дата обращения: 12.11.2024).
+
+    \bibitem{plisio}
+Плизио. (2024, 11 января). Что такое проблема византийских генералов? \textit{Plisio}. URL: \url{https://plisio.net/ru/blog/what-is-the-byzantine-generals-problem} (дата обращения: 13.11.2024).
+
+	\bibitem{vmath}
+Проблема византийских генералов. (2020, 30 июня). URL: \url{https://vmath.ru/vf5/algorithms/bft} (дата обращения: 05.12.2024).
+
+	\bibitem{forklog_PoS}
+Алгоритм консенсуса Proof-of-Stake (PoS): как он работает и почему так популярен. (2022, 03 октября). \textit{Forklog}. URL: \url{https://forklog.com/cryptorium/chto-takoe-proof-of-stake-pos} (дата обращения: 10.12.2024).
+
+	\bibitem{binance_DPoS}
+Разъяснение Delegated Proof of Stake. (2018, 27 ноября; обновлено 2023, 20 апреля). \textit{Binance Academy}. URL: \url{https://academy.binance.com/ru/articles/delegated-proof-of-stake-explained} (дата обращения: 11.12.2024).
+
+\end{thebibliography}
